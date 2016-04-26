@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="example code" Database="">
   <Project Name="05-07-rectangle" Path="05-07-rectangle/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="05-07-rectangle" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
-  <Project Name="05-09-window" Path="05-09-window/_codelite.project" Active="Yes"/>
+  <Project Name="05-09-window" Path="05-09-window/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="05-09-window" ConfigName="Release"/>
@@ -310,6 +305,14 @@
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="15-10-bounce" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="opdracht1" Path="opdracht1/opdracht1.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="05-07-rectangle" ConfigName="Release"/>
+      <Project Name="opdracht1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
